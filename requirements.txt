@@ -1,0 +1,11 @@
+openai
+python-dotenv
+requests
+feedparser
+python-docx
+Pillow
+beautifulsoup4
+trafilatura
+pydantic
+PyYAML
+pytest

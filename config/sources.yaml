@@ -1,0 +1,179 @@
+rss_sources:
+  # Domestic China: verified RSS feeds.
+  - name: Xinhua Domestic
+    url: https://www.news.cn/politics/news_politics.xml
+    region: domestic_china
+    language: zh
+    weight: 1.35
+    enabled: true
+
+  - name: People Politics
+    url: http://www.people.com.cn/rss/politics.xml
+    region: domestic_china
+    language: zh
+    weight: 1.30
+    enabled: true
+
+  - name: China News Domestic
+    url: https://www.chinanews.com.cn/rss/china.xml
+    region: domestic_china
+    language: zh
+    weight: 1.20
+    enabled: true
+
+  - name: China News Scroll
+    url: https://www.chinanews.com.cn/rss/scroll-news.xml
+    region: domestic_china
+    language: zh
+    weight: 0.95
+    enabled: true
+
+  - name: Economic Observer
+    url: https://www.eeo.com.cn/rss.xml
+    region: domestic_china
+    language: zh
+    weight: 1.05
+    enabled: true
+
+  - name: 36Kr
+    url: https://36kr.com/feed
+    region: domestic_china
+    language: zh
+    weight: 0.95
+    enabled: true
+
+  - name: TMTPost
+    url: https://www.tmtpost.com/feed
+    region: domestic_china
+    language: zh
+    weight: 0.90
+    enabled: true
+
+  # Domestic China: known outlets without a stable verified RSS in this pass.
+  - name: China Government State Council
+    url: ""
+    region: domestic_china
+    language: zh
+    weight: 1.30
+    enabled: false # 待验证：中国政府网/国务院动态暂未找到稳定 RSS。
+
+  - name: CCTV News
+    url: ""
+    region: domestic_china
+    language: zh
+    weight: 1.20
+    enabled: false # 待验证：央视新闻暂未找到稳定 RSS。
+
+  - name: CCTV.com News
+    url: ""
+    region: domestic_china
+    language: zh
+    weight: 1.10
+    enabled: false # 待验证：央视网新闻暂未找到稳定 RSS。
+
+  - name: The Paper
+    url: ""
+    region: domestic_china
+    language: zh
+    weight: 1.00
+    enabled: false # 待验证：已知候选地址返回 HTML，不作为 RSS 启用。
+
+  - name: Caixin
+    url: ""
+    region: domestic_china
+    language: zh
+    weight: 1.15
+    enabled: false # 待验证：财新 RSS 不稳定，暂不启用。
+
+  - name: Securities Times
+    url: ""
+    region: domestic_china
+    language: zh
+    weight: 1.00
+    enabled: false # 待验证：证券时报暂未找到稳定 RSS。
+
+  - name: Yicai
+    url: ""
+    region: domestic_china
+    language: zh
+    weight: 1.00
+    enabled: false # 待验证：第一财经暂未找到稳定 RSS。
+
+  # China-related international / English-language China-facing sources.
+  - name: Reuters China
+    url: https://www.reutersagency.com/feed/?best-topics=china&post_type=best
+    region: china_related_international
+    language: en
+    weight: 1.05
+    enabled: true
+
+  - name: South China Morning Post
+    url: https://www.scmp.com/rss/91/feed
+    region: china_related_international
+    language: en
+    weight: 1.00
+    enabled: true
+
+  - name: Xinhua English World
+    url: https://english.news.cn/rss/world.xml
+    region: china_related_international
+    language: en
+    weight: 0.95
+    enabled: true
+
+  - name: CGTN World
+    url: https://www.cgtn.com/subscribe/rss/section/world.xml
+    region: china_related_international
+    language: en
+    weight: 0.90
+    enabled: true
+
+  # International sources retained from the original set.
+  - name: Reuters World
+    url: https://www.reutersagency.com/feed/?best-topics=world&post_type=best
+    region: international
+    language: en
+    weight: 1.00
+    enabled: true
+
+  - name: BBC World
+    url: https://feeds.bbci.co.uk/news/world/rss.xml
+    region: international
+    language: en
+    weight: 1.00
+    enabled: true
+
+  - name: BBC Asia
+    url: https://feeds.bbci.co.uk/news/world/asia/rss.xml
+    region: international
+    language: en
+    weight: 0.95
+    enabled: true
+
+  - name: AP News
+    url: https://apnews.com/hub/ap-top-news?output=rss
+    region: international
+    language: en
+    weight: 1.00
+    enabled: true
+
+  - name: The Guardian World
+    url: https://www.theguardian.com/world/rss
+    region: international
+    language: en
+    weight: 0.95
+    enabled: true
+
+  - name: Al Jazeera
+    url: https://www.aljazeera.com/xml/rss/all.xml
+    region: international
+    language: en
+    weight: 0.95
+    enabled: true
+
+  - name: Nikkei Asia
+    url: https://asia.nikkei.com/rss/feed/nar
+    region: international
+    language: en
+    weight: 0.90
+    enabled: true

@@ -1,0 +1,1 @@
+"""News daily report package."""
