@@ -8,6 +8,15 @@ This project fetches news from RSS sources, extracts article content, removes du
 本项目会从 RSS 新闻源抓取新闻，提取正文，去重，分类，排序，再调用 DeepSeek 生成中文结构化分析，最后输出 Word 新闻日报。
 
 ---
+## Demo / 示例
+
+A sample generated Word report is available here:
+
+[Download demo report](examples/demo_report.docx)
+
+示例 Word 新闻日报可在这里查看：
+
+[下载示例报告](examples/demo_report.docx)
 
 ## 1. Main Features / 主要功能
 
