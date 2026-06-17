@@ -181,7 +181,7 @@ DEEPSEEK_API_KEY=your_deepseek_api_key
 Example:
 
 ```env
-DEEPSEEK_API_KEY=sk-xxxxxxxxxxxxxxxx
+DEEPSEEK_API_KEY=your_deepseek_api_key
 ```
 
 Do not upload `.env` to GitHub.
